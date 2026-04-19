@@ -1,10 +1,11 @@
 header {
-  background-color: var(--bacground-tertiary-color);
+  background-color: var(--background-tertiary-color);
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: flex-start;
   padding: 37px 48px;
+  position: relative;
 }
 
 .logo {
@@ -18,8 +19,27 @@ header {
   margin-top: 60px;
 }
 
-input[type="checkbox"]:checked ~ nav{
-    display: block;
+input[type="checkbox"]:checked ~ nav {
+  display: block;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  background-color: var(--background-tertiary-color);
+}
+
+.list-links {
+  color: var(--text-secundary-color);
+  list-style: none;
+}
+
+.list-links li {
+  margin: 16px 0;
+}
+
+.list-links li a {
+  color: var(--text-secundary-color);
+  text-decoration: none;
 }
 
 nav {
