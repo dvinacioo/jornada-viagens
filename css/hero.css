@@ -5,6 +5,14 @@
     background-size: cover;
 }
 
+.hero h2{
+    padding: 88px 24px;
+    margin: 0px;
+    line-height: 1.5;
+    text-align: center;
+    height: var(--text-weight)
+}
+
 @media screen and (min-width: 768px){
     .hero-mobile{
     height: 620px;
