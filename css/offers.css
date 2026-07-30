@@ -26,11 +26,11 @@
 .card header h3{
     font-size: 40px;
     font-weight: var(--title-weight);
-    margin-top: 8px;
+    margin:8px 0 0;
 }
 
 .card header span{
     font-size: 32px;
-    margin-top: 24px;
+    margin: 24px 0;
     display: inline-block;
 }
