@@ -38,6 +38,46 @@ button {
   box-sizing: border-box;
 }
 
-body{
-    font-family: "Montserrat";
+body {
+  font-family: "Montserrat";
+}
+
+.section-title h2 {
+  font-size: 28px;
+  font-weight: var(--title-weight);
+  margin: 0;
+  text-align: center;
+}
+
+.section-title hr {
+    width: 180px;
+    height: 4px;
+    background-color: var(--secundary-color);
+    border: none;
+    margin: 16px auto 32px;
+}
+
+.button{
+  color: var(--text-secundary-color);
+  background-color: var(--secundary-color);
+  width: 280px;
+  height: 64px;
+  display: inline-block;
+  line-height: 64px;
+  font-size: 20px;
+  font-weight: var(--title-weight);
+  text-decoration: none;
+  border-radius: 16px;
+}
+
+@media screen and (min-width: 768px) {
+    .section-title h2 {
+        font-size: 32px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .button:hover{
+        background-color: var(--primary-color);
+    }
 }
