@@ -1,0 +1,72 @@
+.card-busca{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    
+}
+
+.busca-categorias h2{
+    margin: auto;
+    width: 312px;
+    margin-top: 88px;
+    margin-bottom: 32px;
+    font-size: 32px;
+}
+
+.card-busca a{
+    text-decoration: none;
+    display: inline-block;
+    width: 312px;
+    height: 220px;
+    margin: auto;
+    background-color: var(--background-secundary-color);
+    color: var(--text-primary-color);
+}
+.card-busca a img{
+    margin:  24px 116px 24px 116px;
+}
+
+.card-busca a h3{
+    font-size: 28px;
+    margin: 0;
+    width: 280px;
+
+}
+
+#single-line{
+    padding-top: 50px;
+
+}
+
+@media screen and (min-width: 768px) {
+    .card-busca{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .busca-categorias h2{
+    width: 385px;
+}
+
+    .card-busca a{
+        margin: 0;
+    }
+}
+
+@media screen and (min-width:1024px ) {
+    .card-busca a{
+        width: 380px;
+        align-items: center;
+    }
+
+    .card-busca a h3{
+        margin: 0 auto;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .card-busca a{
+        width: 312px;
+    }
+}
