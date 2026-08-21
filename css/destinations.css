@@ -6,3 +6,34 @@
     display: block;
     position: static;
 }
+
+.itens-destinos header h4{
+    margin: 24px 24px;
+}
+
+.itens-destinos p{
+    margin: 0 24px;
+    height: var(--text-weight);
+}
+
+.itens-destinos .button{
+    margin: 24px 24px;
+}
+
+.foto-destino-tokyo{
+    width: 312px;
+    height: 360px;
+    margin: 0 24px 24px 24px;
+    background-image: url(../img/Tokyo-destinos-mobile.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.foto-destino-osaka{
+    width: 312px;
+    height: 360px;
+    margin: 0 24px 24px 24px;
+    background-image: url(../img/Osaka-destinos-mobile.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
