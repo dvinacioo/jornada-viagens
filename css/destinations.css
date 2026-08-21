@@ -1,0 +1,8 @@
+.itens-destinos header{
+    background-color: transparent;
+    font-size: 32px;
+    font-weight: var(--text-weight);
+    padding: 0;
+    display: block;
+    position: static;
+}
