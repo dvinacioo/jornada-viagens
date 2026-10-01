@@ -1,65 +1,120 @@
-.itens-destinos header{
-    background-color: transparent;
-    font-size: 32px;
-    font-weight: var(--text-weight);
-    padding: 0;
-    display: block;
-    position: static;
+.itens-destinos header {
+  background-color: transparent;
+  font-size: 32px;
+  font-weight: var(--text-weight);
+  padding: 0;
+  display: block;
+  position: static;
 }
 
-.itens-destinos header h4{
-    margin: 24px 24px;
+.itens-destinos header h4 {
+  margin: 24px 24px;
 }
 
-.itens-destinos p{
-    margin: 0 24px;
-    height: var(--text-weight);
+.itens-destinos p {
+  margin: 0 24px;
+  height: var(--text-weight);
 }
 
-.itens-destinos .button{
-    margin: 24px 24px;
-    text-align: center;
-    width: 312px;
+.itens-destinos .button {
+  margin: 24px 24px;
+  text-align: center;
+  width: 312px;
 }
 
-.foto-destino-tokyo{
-    width: 312px;
-    height: 360px;
-    margin: 0 24px 24px 24px;
-    background-image: url(../img/Tokyo-destinos-mobile.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+.foto-destino-tokyo {
+  width: 312px;
+  height: 360px;
+  margin: 0 24px 24px 24px;
+  background-image: url(../img/Tokyo-destinos-mobile.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.foto-destino-osaka{
-    width: 312px;
-    height: 360px;
-    margin: 0 24px 24px 24px;
-    background-image: url(../img/Osaka-destinos-mobile.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+.foto-destino-osaka {
+  width: 312px;
+  height: 360px;
+  margin: 0 24px 24px 24px;
+  background-image: url(../img/Osaka-destinos-mobile.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-@media  screen and (min-width: 768px) {
-    .foto-destino-tokyo, .foto-destino-osaka{
-        width: 618px;
-        height: 452px;
-        margin: 0 60px 24px 60px;
-    }
-    .foto-destino-osaka{
-        background-image: url(../img/Osaka-destinos-tablet.jpg);
-    }
-    .foto-destino-tokyo{
-        background-image: url(../img/Tokyo-destinos-tablet.jpg);
-    }
-    .itens-destinos header h4{
-        margin-left: 60px;
-    }
-    .itens-destinos p{
-        margin-left: 60px;
-    }
-    .itens-destinos .button{
-        margin-left: 60px;
-        width: 280px;
-    }
+@media screen and (min-width: 768px) {
+  .foto-destino-tokyo,
+  .foto-destino-osaka {
+    width: 618px;
+    height: 452px;
+    margin: 0 60px 24px 60px;
+  }
+  .foto-destino-osaka {
+    background-image: url(../img/Osaka-destinos-tablet.jpg);
+  }
+  .foto-destino-tokyo {
+    background-image: url(../img/Tokyo-destinos-tablet.jpg);
+  }
+  .itens-destinos header h4 {
+    margin-left: 60px;
+  }
+  .itens-destinos p {
+    margin-left: 60px;
+  }
+  .itens-destinos .button {
+    margin-left: 60px;
+    width: 280px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .itens-destinos {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .item {
+    gap: 24px;
+    flex: 1 1 0;
+    min-width: 0;
+  }
+  .foto-destino-osaka {
+    width: min(588px, calc(100% - 132px));
+    height: 452px;
+    background-image: url(../img/Osaka-destinos-desktop.jpg);
+    margin-left: 24px;
+    margin-right: 120px;
+  }
+  .foto-destino-tokyo {
+    width: min(588px, calc(100% - 132px));
+    height: 452px;
+    background-image: url(../img/Tokyo-destinos-desktop.jpg);
+    margin-left: 120px;
+    margin-right: 0;
+  }
+  .itens-destinos header h4.texto-tokyo {
+    margin-left: 120px;
+  }
+  .itens-destinos header h4 {
+    margin-left: 0;
+  }
+  .itens-destinos p.texto-osaka {
+    margin-left: 24px;
+    width: min(588px, calc(100% - 24px));
+    height: 128px;
+    margin-left: 24px;
+    font-size: 20px;
+  }
+  .itens-destinos p.texto-tokyo {
+    width: min(588px, calc(100% - 120px));
+    height: 128px;
+    margin-left: 120px;
+    font-size: 20px;
+  }
+  .itens-destinos .button {
+    margin-left: 120px;
+  }
+  .itens-destinos header h4.texto-osaka {
+    margin-left: 24px;
+  }
+  .button.button-osaka {
+    margin-left: 24px;
+  }
 }
