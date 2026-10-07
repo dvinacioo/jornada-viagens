@@ -1,3 +1,4 @@
+
 .text-content h3{
     margin: 0 24px 24px 24px;
 }
@@ -73,4 +74,22 @@
     width: 648px;
     background-image: url(../img/pagamento3-tablet.png);
 }
+}
+
+@media screen and (min-width: 1024px) {
+    .content-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+    .text-content h3{
+        width: 285px;
+        font-size: 28px;
+    }
+    .text-content p{
+        font-size: 20px;
+    }
+    .photo-grid{
+        width: 790px;
+    }
 }
