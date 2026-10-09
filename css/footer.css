@@ -56,4 +56,34 @@
   .footer-site {
     width: 768px;
   }
+  .info p {
+    display: flex;
+    justify-content: start;
+    margin-left: 120px;
+  }
+
+  .info-redes {
+    display: flex;
+    flex-direction: column;
+    margin-top: 52px;
+  }
+
+}
+
+@media screen and (min-width: 1440px) {
+  .hero-footer {
+    width: 100%;
+    height: 600px;
+    background-image: url(../img/hero-footer-desktop.jpg);
+  }
+
+  .footer-site {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .info-redes{
+    margin-right: 120px;
+  }
 }
