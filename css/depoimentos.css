@@ -50,4 +50,9 @@
     .container-depoimentos{
     flex-direction: row;
     }
+
+    .container-depoimentos p{
+        width: 384px;
+        
+    }
 }
