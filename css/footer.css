@@ -1,49 +1,59 @@
-.hero-footer{
-    width: 360px;
-    height: 400px;
-    background-image: url(../img/hero-footer-mobile.png);
-    background-size: cover;
-    margin-top: 88px;
+.hero-footer {
+  width: 360px;
+  height: 400px;
+  background-image: url(../img/hero-footer-mobile.png);
+  background-size: cover;
+  margin-top: 88px;
 }
 
-.footer-site{
-    margin: 0;
-    padding: 32px 0;
-    width: 360px;
-    background-color: var(--background-tertiary-color);
+.footer-site {
+  margin: 0;
+  padding: 32px 0;
+  width: 360px;
+  background-color: var(--background-tertiary-color);
 }
-.logo-footer{
-    display: block;
-    margin: 0 auto;
-    width: 160px;
-    height: 40px;
-}
-
-.footer-site p{
-    color: var(--text-secundary-color);
-    font-size: 16px;
-    text-align: center;
+.logo-footer {
+  display: block;
+  margin: 0 auto;
+  width: 160px;
+  height: 40px;
 }
 
-.info{
-    display: block;
-    margin: 16px 24px 32px;
+.footer-site p {
+  color: var(--text-secundary-color);
+  font-size: 16px;
+  text-align: center;
 }
 
-.container-logos{
-    display: flex;
-    justify-content: center;
-    gap: 8px;
-    margin-top: 16px;
+.info {
+  display: block;
+  margin: 16px 24px 32px;
 }
-.container-logos img{
-    width: 24px;
-    height: 24px;
+
+.container-logos {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin-top: 16px;
 }
-.zap{
-    background-image: url(../img/Vector.png);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 11px;
+.container-logos img {
+  width: 24px;
+  height: 24px;
+}
+.zap {
+  background-image: url(../img/Vector.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 11px;
+}
+
+@media screen and (min-width: 768px) {
+  .hero-footer {
+    width: 768px;
+    background-image: url(../img/hero-footer-tablet.jpg);
+  }
+  .footer-site {
+    width: 768px;
+  }
 }
